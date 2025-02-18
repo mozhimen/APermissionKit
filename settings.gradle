@@ -22,7 +22,8 @@ dependencyResolutionManagement {
 rootProject.name = "APermissionKit"
 include ':permissionk:test'
 include ':permissionk'
-include ':rxpermissions_0_10_2'
+include ':rxpermissions:v0_10_2'
+include ':rxpermissions:v0_9_3'
 include ':rxpermissions2'
 //ALibKit_Google
 include ":ALibKit_Google"
@@ -55,4 +56,4 @@ project(':ARxKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ARxKit")
 include ':ARxKit:rxpermissions2'
 include ':ARxKit:rxpermissions_0_10_2'
 include ':ARxKit:rxpermissions_0_9_3'
-include ':rxpermissions_0_9_3'
+

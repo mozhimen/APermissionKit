@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.permissionk.rxpermissions_0_9_3'
+    namespace 'com.mozhimen.permissionk.rxpermissions'
     compileSdk 34
 
     defaultConfig {
         minSdk 19
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 //        consumerProguardFiles "consumer-rules.pro"
@@ -30,7 +31,8 @@ android {
 }
 
 dependencies {
-    api project(':ARxKit:rxpermissions_0_9_3')//
+    //api 'com.github.tbruyelle:rxpermissions:0.10.2'
+    api project(':ARxKit:rxpermissions_0_10_2')//
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
