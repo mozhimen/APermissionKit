@@ -30,7 +30,7 @@ object PermissionK : BaseUtilK() {
         fragmentActivity: FragmentActivity,
         permission: String,
         onSuccess: I_Listener,
-        onFail: I_Listener? = { UtilKActivityStart.startSettingApplicationDetailsSettings(fragmentActivity) }
+        onFail: I_Listener? = { UtilKActivityStart.startSettingsApplicationDetailsSettings(fragmentActivity) }
     ) {
         requestPermission(fragmentActivity, permission, onResult = { if (it) onSuccess.invoke() else onFail?.invoke() })
     }
@@ -50,7 +50,7 @@ object PermissionK : BaseUtilK() {
     fun requestPermissions(
         fragmentActivity: FragmentActivity,
         onSuccess: I_Listener,
-        onFail: I_Listener? = { UtilKActivityStart.startSettingApplicationDetailsSettings(fragmentActivity) }
+        onFail: I_Listener? = { UtilKActivityStart.startSettingsApplicationDetailsSettings(fragmentActivity) }
     ) {
         requestPermissions(fragmentActivity, onResult = { if (it) onSuccess.invoke() else onFail?.invoke() })
     }
