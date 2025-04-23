@@ -2,8 +2,8 @@ package com.mozhimen.permissionk.helpers
 
 import androidx.annotation.RequiresApi
 import com.mozhimen.kotlin.elemk.android.os.cons.CVersCode
-import com.mozhimen.kotlin.elemk.androidx.fragment.InvisibleProxyFragment_ofAndroid
-import com.mozhimen.kotlin.elemk.androidx.fragment.InvisibleProxyFragment_ofAndroidx
+import com.mozhimen.kotlin.elemk.androidx.fragment.impls.InvisibleProxyFragment_ofAndroid
+import com.mozhimen.kotlin.elemk.androidx.fragment.impls.InvisibleProxyFragment_ofAndroidx
 
 /**
  * @ClassName InvisibleFragment
