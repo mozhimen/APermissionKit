@@ -13,6 +13,7 @@ import com.mozhimen.kotlin.utilk.wrapper.UtilKPermission
 import com.mozhimen.kotlin.utilk.android.app.getAnnotation
 import com.mozhimen.kotlin.utilk.android.os.UtilKBuildVersion
 import com.mozhimen.kotlin.utilk.android.util.w
+import com.mozhimen.kotlin.utilk.commons.IUtilK
 import com.mozhimen.permissionk.helpers.InvisiblePermissionProxyFragment_ofAndroid
 import com.mozhimen.permissionk.helpers.InvisiblePermissionProxyFragment_ofAndroidx
 
@@ -22,7 +23,7 @@ import com.mozhimen.permissionk.helpers.InvisiblePermissionProxyFragment_ofAndro
  * @Author mozhimen
  * @Version 1.0
  */
-object PermissionK : BaseUtilK() {
+object PermissionK : IUtilK {
     const val PERMISSION_REQUEST_CODE = 101
 
     @JvmStatic
