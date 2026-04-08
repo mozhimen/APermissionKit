@@ -31,8 +31,7 @@ android {
 }
 
 dependencies {
-    //api 'com.github.tbruyelle:rxpermissions:0.10.2'
-    api project(':ARxKit:rxpermissions:v0_10_2')//
+    api 'com.github.mozhimen.ARxKit:rxpermissions0_10_2:0.0.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

@@ -31,7 +31,7 @@ android {
 }
 
 dependencies {
-    api project(':ARxKit:rxpermissions:v0_9_3')//
+    api 'com.github.mozhimen.ARxKit:rxpermissions0_9_3:0.0.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
